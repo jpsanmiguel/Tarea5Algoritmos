@@ -26,8 +26,8 @@ public class SimpleSNPDetector implements PileupListener {
      * @throws Exception If the files can not be read
      */
     public static void main(String[] args) throws Exception {
-        String genomeFile = "C:\\Users\\Sanmi\\Desktop\\yeastGenome.fa";
-        String alignmentsFile = "C:\\Users\\Sanmi\\Desktop\\Unselected_bowtie2_sorted.bam";
+        String genomeFile = args[0];
+        String alignmentsFile = args[1];
         SimpleSNPDetector instance = new SimpleSNPDetector();
         instance.genome = new ReferenceGenome(genomeFile);
         AlignmentsPileupGenerator generator = new AlignmentsPileupGenerator();

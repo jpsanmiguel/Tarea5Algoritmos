@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff260bc-6aab-430d-8c76-36635e8b9249" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/uniandes/algorithms/alntools/BasicAlignmentStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/uniandes/algorithms/alntools/BasicAlignmentStatistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/uniandes/algorithms/alntools/InsertLengthDistributionCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/uniandes/algorithms/alntools/InsertLengthDistributionCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/uniandes/algorithms/alntools/SimpleSNPDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/uniandes/algorithms/alntools/SimpleSNPDetector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/BasicAlignmentStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/BasicAlignmentStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/InsertLengthDistributionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/InsertLengthDistributionCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/SimpleSNPDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/SimpleSNPDetector.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572384910496</updated>
       <workItem from="1572384919961" duration="2674000" />
-      <workItem from="1572913175892" duration="4363000" />
+      <workItem from="1572913175892" duration="4629000" />
+      <workItem from="1572918046686" duration="12000" />
     </task>
     <servers />
   </component>
