@@ -47,6 +47,37 @@ public class BasicAlignmentStatistics {
 			while (it.hasNext()) {
 				ReadAlignment aln = it.next();
 				// TODO: Utilzar los metodos del objeto aln para actualzar las estadisticas
+				totalReads += aln.getReadLength();
+				totalAlignments += 1;
+				if(aln.isReadUnmapped())
+				{
+					unalignedReads += 1;
+				}
+				else
+				{
+					alignedReads +=1;
+				}
+				if(aln.isProperPair())
+				{
+					pairProperlyAligned += 1;
+				}
+				if(aln.isMateDifferentSequence())
+				{
+					mateInDifferentSequence += 1;
+				}
+				if(aln.isMateUnmapped())
+				{
+					mateUnaligned += 1;
+				}
+				if(aln.isUnique())
+				{
+					uniqueAlignments += 1;
+				}
+				if(aln.isSecondary())
+				{
+					secondaryAlignments += 1;
+				}
+				alignmentQualitiesDistribution[aln.getAlignmentQuality()] += 1;
 			}
 		}
 	}
@@ -55,7 +86,22 @@ public class BasicAlignmentStatistics {
 	 */
 	public void printStatistics() {
 		// TODO: Implementar metodo
-		
+		System.out.println("Estadisticas alineamiento basico: ");
+		System.out.println("Lecturas totales: " + totalReads);
+		System.out.println("Alineamientos totales: " + totalAlignments);
+		System.out.println("Lecturas alineadas: " + alignedReads);
+		System.out.println("Lecturas no alineadas: " + unalignedReads);
+		System.out.println("Pares alineados apropiadamente: " + pairProperlyAligned);
+		System.out.println("Par en diferente secuencia: " + mateInDifferentSequence);
+		System.out.println("Par desalineado: " + mateUnaligned);
+		System.out.println("Alineamientos unicos: " + uniqueAlignments);
+		System.out.println("Alineamientos secundarios: " + secondaryAlignments);
+		System.out.println("Distribución calidad alineamiento");
+		System.out.println("Calidad\t:\tNumero de lecturas");
+		for (int actual = 0; actual < alignmentQualitiesDistribution.length; actual++)
+		{
+			System.out.println(actual + "\t:\t" + alignmentQualitiesDistribution[actual]);
+		}
 	}
 
 }
