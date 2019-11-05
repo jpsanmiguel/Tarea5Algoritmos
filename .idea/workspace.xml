@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ff260bc-6aab-430d-8c76-36635e8b9249" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/SimpleSNPDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uniandes/algorithms/alntools/SimpleSNPDetector.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ff260bc-6aab-430d-8c76-36635e8b9249" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <updated>1572384910496</updated>
       <workItem from="1572384919961" duration="2674000" />
       <workItem from="1572913175892" duration="4629000" />
-      <workItem from="1572918046686" duration="12000" />
+      <workItem from="1572918046686" duration="45000" />
     </task>
     <servers />
   </component>
